@@ -1,0 +1,8 @@
+import pandas as pd
+
+# Assuming you have a dataset loaded into a DataFrame called df
+# Load your dataset (modify the path if necessary)
+df = pd.read_csv("your_dataset.csv")
+
+# Display data types of each column
+print(df.dtypes)
